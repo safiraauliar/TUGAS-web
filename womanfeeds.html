@@ -3,27 +3,28 @@
 <head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Amarante" rel="stylesheet">
 </head>
 <body>
     <ul>
-        <li><a href="#womanfeeds"><b> WomanFeeds </b></a></li>
-        <li><a href="#profil"><b> Profil </b></a></li>
+        <li><a href="womanfeeds.html"><b> WomanFeeds </b></a></li>
+        <li><a href="profil.html"><b> Profil </b></a></li>
         <li class="dropdown">
           <a href="#" class="dropbtn"> <b>Tips&Tricks </b> </a>
           <div class="dropdown-content">
-            <a href="#">Tips</a>
-            <a href="#">Tricks</a>
+            <a href="tips.html">Tips</a>
+            <a href="tricks.html">Tricks</a>
           </div>
         </li>
         <li class="dropdown">
           <a href="#" class="dropbtn"> <b>Product</b> </a>
           <div class="dropdown-content">
-            <a href="#">SkinCare</a>
-            <a href="#">HairCare</a>
-            <a href="#">BodyCare</a>
+            <a href="skincare.html">SkinCare</a>
+            <a href="haircare.html">HairCare</a>
+            <a href="bodycare.html">BodyCare</a>
           </div>
         </li>
-        <li><a href="#promotion"> <b> Promotion </b></a></li>
+        <li><a href="promotion.html"> <b> Promotion </b></a></li>
         <div class="search-container">
             <form action="/action_page.php">
               <input type="text" placeholder="Search.." name="search">
@@ -32,11 +33,9 @@
           </div>
       </ul>
       <div class="container">
-        <img class="mySlides" src="beauty2.jpg" alt="beautyprofil" style="width:100%; height: 90vh;" >
-        <img class="mySlides" src="beauty3.jpg" alt="beautyprofil" style="width:100%; height: 90vh;" >
-        <img class="mySlides" src="promotion.png" alt="beautyprofil" style="width:100%; height: 90vh;" >
-        <div class="" style="padding:24px 48px">
-        </div>
+        <img class="mySlides" src="img/beauty2.jpg" alt="beautyprofil" style="width:100%; height: 90vh;" >
+        <img class="mySlides" src="img/beauty3.jpg" alt="beautyprofil" style="width:100%; height: 90vh;" >
+        <img class="mySlides" src="img/promotion.png" alt="beautyprofil" style="width:100%; height: 90vh;" >
       </div>
       <script>
         var myIndex = 0;
@@ -54,9 +53,79 @@
           setTimeout(carousel, 2000); // Change image every 2 seconds
         }
         </script>
-
-
-
-
+        <div class="home-title" style="  font-family: 'Amarante';font-size: 15px;">
+          <h1>Our Picks</h1>
+        </div>
+        <div class="row" >
+            <div class="column zoom" >
+              <img class="font-img" src="skincare/cosrx.jpg" alt="cosrx">
+              <p class="text-img" >cosrx Centella</p>
+              <p class="text-img" >water free-alcohol</p>
+              <p class="text-img" >Rp 200.000</p>
+            </div>
+            <div class="column zoom">
+              <img class="font-img" src="skincare/somebyme.png" alt="somebyme">
+              <p class="text-img" >Somebyme AHA-BHA</p>
+              <p class="text-img" >30 days miracle toner</p>
+              <p class="text-img" >Rp 200.000</p>
+            </div>
+            <div class="column zoom">
+              <img class="font-img" src="skincare/cosrx ahabha.jpg" alt="viva-toner">
+              <p class="text-img" >cosrx AHA-BHA</p>
+              <p class="text-img" >Clarifiying Toner</p>
+              <p class="text-img" >Rp 150.000</p>
+            </div>
+            <div class="column zoom">
+              <img class="font-img" src="skincare/snail truecica.jpg" alt="snail truecica">
+              <p class="text-img" >Somebyme</p>
+              <p class="text-img" >Snail Truecica</p>
+              <p class="text-img" >Rp 200.000</p>
+            </div>
+            <div class="column zoom">
+                <img class="font-img" src="skincare/wardah serum.jpg" alt="snail truecica">
+                <p class="text-img" >Wardah Serum</p>
+                <p class="text-img" >C-defense</p>
+                <p class="text-img" >Rp 50.000</p>
+              </div>
+          </div>
+          <div class="home-title" style="  font-family: 'Amarante';font-size: 15px; padding-top: 250px;">
+            <h1>Best Seller</h1>
+          </div>
+          <div class="row" style="padding-bottom: 350px">
+              <div class="column zoom" >
+                <img class="font-img" src="skincare/bio.jpg" alt="bio essence">
+                <p class="text-img" >Bio Essence</p>
+                <p class="text-img" >BIO-Water sensitive Ph</p>
+                <p class="text-img" >Rp 90.000</p>
+              </div>
+              <div class="column zoom">
+                <img class="font-img" src="skincare/laneige.jpg" alt="laneige">
+                <p class="text-img" >laneige Skin Toner</p>
+                <p class="text-img" >Rp 200.000</p>
+              </div>
+              <div class="column zoom">
+                <img class="font-img" src="skincare/yuja niacin.jpeg" alt="yuja niacin">
+                <p class="text-img" >Somebyme Yuja niacin</p>
+                <p class="text-img" >Blemish Care serum</p>
+                <p class="text-img" >Rp 175.000</p>
+              </div>
+              <div class="column zoom">
+                <img class="font-img" src="skincare/sensatia.jpg" alt="sensatia botanica">
+                <p class="text-img" >sensatia Botanica</p>
+                <p class="text-img" >Face Mist</p>
+                <p class="text-img" >Rp 180.000</p>
+              </div>
+              <div class="column zoom">
+                  <img class="font-img" src="skincare/the ordinary.jpg" alt="the ordinary">
+                  <p class="text-img" >The Ordinary</p>
+                  <p class="text-img" >Serum</p>
+                  <p class="text-img" >Rp 120.000-Rp 200.000</p>
+                </div>
+            </div>
+            <div class="container">
+              <a href="promotion.html">
+                <img src="img/diskon.png" alt="beautyprofil" style="width:100%; height: 50vh;" >
+                 </a>
+            </div>
 </body>
 </html>
