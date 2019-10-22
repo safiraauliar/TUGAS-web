@@ -121,7 +121,8 @@ ul.search-container button:hover {
   }
 }
 .font-img {
-  block-size: 40vh;
+  block-size: 30vh;
+  margin-left: 30px;
   border: 1px solid red
 }
 .zoom{
