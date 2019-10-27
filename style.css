@@ -174,7 +174,30 @@ font-weight: 500;
 	text-decoration: underline;
 }
 
+a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 16px;
+  }
+  a:hover {
+	background-color:rgba(196, 69, 105,1.0);
+	color: black;
+  }
+.previous {
+	background-color: pink;
+	color:white;
+	
 
+  }
+  
+  .next {
+	background-color: pink;
+	color: white;
+  }
+  
+  .round {
+	border-radius: 50%;
+  }
 
 .footer{
 	background-color: #292c2f;
