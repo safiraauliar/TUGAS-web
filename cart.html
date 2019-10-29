@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <title>Shopping cart</title>
+  <meta name="author" content="Jake Rocheleau">
+  <link rel="shortcut icon" href="http://spyrestudios.com/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="http://spyrestudios.com/favicon.ico">
+  <link rel="stylesheet" type="text/css" media="all" href="cart.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <header>
+                <ul>
+                    <li><a href="login-signup.html"><b> Home </b></a></li>
+                    <li><a href="womanbeauty.html"><b> WomanBeauty </b></a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropbtn"> <b>Product</b> </a>
+                      <div class="dropdown-content">
+                        <a href="skincare.html">SkinCare</a>
+                        <a href="hair&body.html">Hair&Body Care</a>
+                      </div>
+                    </li>
+                    <li>
+                        <div class="icons">
+                          <a href="cart.html"><i class="fa fa-cart-arrow-down"></i></a>
+                        </div>
+                      </li>
+                    <div class="search-container">
+                        <form action="/action_page.php">
+                          <input type="text" placeholder="Search.." name="search">
+                          <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                      </div>
+                  </ul>
+              </header>
+  <div id="w">
+    <header id="title">
+      <h1>your cart</h1>
+    </header>
+    <div id="page">
+      <table id="cart">
+        <thead>
+          <tr>
+            <th class="first">Pict</th>
+            <th class="second">Qty</th>
+            <th class="third">Product</th>
+            <th class="fourth">Line Total</th>
+            <th class="fifth">&nbsp;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="productitm">
+            <td><img src="skincare/cetaphil.jpg" class="thumb"></td>
+            <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+            <td>Cetaphil gentle skin cleanser </td>
+            <td>Rp 145.00</td>
+            <td><span class="remove"><img src="img/trash.png" alt="X"></span></td>
+          </tr>
+          <tr class="productitm">
+            <td><img src="skincare/ahabha.jpg" class="thumb"></td>
+            <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+            <td>Cosrx AHA/BHA clarifying toner</td>
+            <td>Rp 150.000</td>
+            <td><span class="remove"><img src="img/trash.png" alt="X"></span></td>
+          </tr>
+          <tr class="productitm">
+            <td><img src="skincare/centella.jpg" class="thumb"></td>
+            <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+            <td>Cosrx Centella blemish cream</td>
+            <td>Rp 200.000</td>
+            <td><span class="remove"><img src="img/trash.png" alt="X"></span></td>
+          </tr>
+          <tr class="productitm">
+            <td><img src="skincare/kleveru.jpg" class="thumb"></td>
+            <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+            <td>Kleveru Rice Bran Oil</td>
+            <td>Rp 70.000</td>
+            <td><span class="remove"><img src="img/trash.png" alt="X"></span></td>
+          </tr>
+          
+          <!-- tax + subtotal -->
+          <tr class="extracosts">
+            <td class="light">Ongkir</td>
+            <td colspan="2" class="light"></td>
+            <td>Rp 20.000</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr class="totalprice">
+            <td class="light">Total:</td>
+            <td colspan="2">&nbsp;</td>
+            <td colspan="2"><span class="thick">Rp 585.000</span></td>
+          </tr>
+          
+          <!-- checkout btn -->
+          <tr class="checkoutrow">
+            <td colspan="5" class="checkout"><button id="submitbtn"><a href="checkout.html"> Checkout Now!</a> </button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <footer class="footer-distributed">
+             
+        <div class="footer-left">
+ 
+        <h3>Woman<span>Beauty</span></h3>
+ 
+        <p class="footer-links">
+  .
+        <a href="#">feedback</a><br>
+    ·
+        <a href="#">privacy Policy</a><br>
+    ·
+        <a href="#">Pricing</a><br>
+    ·
+        <a href="#">About Us</a><br>
+    ·
+        <a href="#">Faq</a><br>
+    ·
+        <a href="#">Contact</a><br>
+        </p>
+ 
+        <p class="footer-company-name">womanbeauty &copy; 2019</p>
+        </div>
+ 
+        <div class="footer-center">
+ 
+        <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>21 Imam Bonjol Street</span> Semarang, Indonesia</p>
+        </div>
+ 
+        <div>
+        <i class="fa fa-phone"></i>
+        <p>+62 555 123456</p>
+        </div>
+ 
+        <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@company.com">contact@womanbeauty.com</a></p>
+        </div>
+ 
+        </div>
+ 
+        <div class="footer-right">
+ 
+        <p class="footer-company-about">
+        <span>About womanbeauty</span>
+    Product Reviews, Tips & Tricks, Expert and Consumer Opinions, Beauty Tutorials, Discussions, Beauty Workshops, anything!
+    We are here to be your friendly solution to all things beauty, inside and out
+        </p>
+        <div class="footer-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/kutubngst"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/safiraaauliar/"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-whatsapp"></i></a>
+        </div>
+ </div>
+</footer>
+</body>
+</html>

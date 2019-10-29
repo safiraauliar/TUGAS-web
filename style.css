@@ -21,6 +21,7 @@ li {
   float: left;
 }
 a{
+	font-size: 18px;
 	color: white;
 }
 
@@ -32,9 +33,12 @@ li a, .dropbtn {
   text-decoration: none;
  
 }
+li a:hover{
+	color: white;
+}
 
-li a:hover, .dropdown:hover .dropbtn {
-  background-color:deeppink ;
+li a:hover,.dropdown-content {
+ color:w ;
 }
 
 li.dropdown {
@@ -350,6 +354,16 @@ footer{
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
+.icons{
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	background-color: rgb(236, 10, 115);
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+}
+
  
  
 @media (max-width: 880px) {
