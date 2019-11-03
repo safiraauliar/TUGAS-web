@@ -162,7 +162,6 @@ tr.extracosts {
 }
 
 .remove {
-  /* http://findicons.com/icon/261449/trash_can?id=397422 */
   cursor: pointer;
   position: relative;
   right: 12px;
@@ -182,8 +181,6 @@ tr.extracosts {
   font-weight: bold;
 }
 
-
-/** submit btn **/
 tr.checkoutrow {
   background: pink;
   border-top: 1px solid #abc0db;
@@ -197,8 +194,6 @@ td.checkout {
 
 }
 
-
-/* http://codepen.io/guvootes/pen/eyDAb */
 #submitbtn {
   width: 150px;
   height: 35px;
@@ -217,3 +212,44 @@ td.checkout {
 
 }
 
+@media (max-width: 880px) {
+ 
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	
+	}
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+}
+@media (max-width: 992px){
+	main{
+		grid-template-columns: repeat(3,1fr);
+		grid-gap: 20px;
+
+	}
+}
+@media (max-width:767px){
+	main{
+		grid-template-columns: repeat(2,1fr);
+		grid-gap: 15px;
+	}
+}
+@media (max-width:500px){
+	main{
+		grid-template-columns: repeat(1,1fr);
+	}
+}
