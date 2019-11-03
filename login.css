@@ -59,3 +59,16 @@ h1 span{
     color: white
     font-family: 'Lobster', cursive;
 }
+.footer{
+    width: 100%;
+    text-align: center;
+    background:rgb(29, 30, 31);
+    padding: 20px 0;
+}   
+.footer a{
+    color: #ddd;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
