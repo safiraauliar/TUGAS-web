@@ -6,7 +6,7 @@ body {
   padding: 0;
   height: 300px;
   font-family: 'Roboto Condensed', sans-serif;
-  background-color: pink;
+  background-color:white;
   
 }
 ul {
@@ -207,7 +207,7 @@ a {
 .footer{
     width: 100%;
     text-align: center;
-    background:rgb(29, 30, 31);
+    background:rgb(211, 51, 91);
     padding: 20px 0;
 }   
 .footer a{
@@ -217,5 +217,39 @@ a {
     width: 100%;
     margin: 0 auto;
 }
+.footer p{
+  color: white;
+  font-weight: 200px;
+}
+.icons{
+  width: 20px;
+}
 
-	
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
+@media (max-width:992px){
+  main{
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+  }
+}
+@media (max-width:767px){
+  main{
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 15px;
+  }
+
+
+
+/* @media (max-width:500px){
+  main{
+    grid-template-columns: repeat(1,1fr);
+  }
+} */

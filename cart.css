@@ -25,9 +25,6 @@ body {
   padding: 25px 0;
 }
 
-/* ::selection { background: #bdc0e8; }
-::-moz-selection { background: #bdc0e8; }
-::-webkit-selection { background: #bdc0e8; } */
 
 br { display: block; line-height: 1.6em; } 
 
@@ -70,6 +67,7 @@ h1 {
   width: 600px;
   margin: 0 auto;
   margin-top: 20px;
+  margin-bottom: 20px;
   
 }
 
@@ -212,44 +210,32 @@ td.checkout {
 
 }
 
-@media (max-width: 880px) {
- 
-	.footer-distributed{
-		font: bold 14px sans-serif;
-	
-	}
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-center,
-	.footer-distributed .footer-right{
-		display: block;
-		width: 100%;
-		margin-bottom: 40px;
-		text-align: center;
-	}
- 
-	.footer-distributed .footer-center i{
-		margin-left: 0;
-	}
-	.main {
-		line-height: normal;
-		font-size: auto;
-	}
+.footer{
+  width: 100%;
+  text-align: center;
+  background:rgb(255, 43, 96);
+  padding: 20px 0;
+}   
+.footer a{
+  color: #ddd;
 }
-@media (max-width: 992px){
-	main{
-		grid-template-columns: repeat(3,1fr);
-		grid-gap: 20px;
 
-	}
+.container{
+  width: 100%;
+  margin: 0 auto;
 }
-@media (max-width:767px){
-	main{
-		grid-template-columns: repeat(2,1fr);
-		grid-gap: 15px;
-	}
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
 }
-@media (max-width:500px){
-	main{
-		grid-template-columns: repeat(1,1fr);
-	}
-}
+
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+
+  @media (max-width:992px){
+    #w{
+      width: 100%;
+      margin-top: 20px;
+    }
+  }

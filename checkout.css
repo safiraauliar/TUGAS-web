@@ -191,7 +191,7 @@ body {
   .footer{
     width: 100%;
     text-align: center;
-    background:rgb(29, 30, 31);
+    background:rgb(243, 24, 97);
     padding: 20px 0;
 }   
 .footer a{
@@ -200,4 +200,14 @@ body {
 .container{
     width: 100%;
     margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
+@media (max-width:992px){
+  main{
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+  }
 }
